@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wushanfei.stepapp.views.OverLapVolteIconContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+    <ImageView
+        android:id="@+id/volte_indicator_top"
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/stat_sys_volte"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:id="@+id/volte_indicator_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/stat_sys_volte"
+        />
+</com.wushanfei.stepapp.views.OverLapVolteIconContainer>
